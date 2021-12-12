@@ -187,3 +187,31 @@ input{
   border: 0.1rem #c0c0c0 solid;
   border-radius: 1rem;
 }
+/*Product Details*/
+.product-details{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img{
+  max-height: 100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+.product-details-description{
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal{
+  position:absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.4rem;
+  width: 3rem;
+}
